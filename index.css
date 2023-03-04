@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(208, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+.container{
+    
+    background-color: rgb(56, 50, 50);
+    width: 70px;
+    height: 200px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    flex-direction: column;
+}
+.Svet{
+background-color:rgba(77, 69, 69, 0.3);
+width:45px;
+height: 45px;
+border-radius: 50%;
+}
+.Svet.red{
+    background-color: red;
+    box-shadow: 0 0 25px red;
+}
+.Svet.yellow{
+    background-color: yellow;
+    box-shadow: 0 0 25px yellow;
+}
+.Svet.green{
+    background-color: rgb(60, 202, 60);
+    box-shadow: 0 0 30p green;
+}
